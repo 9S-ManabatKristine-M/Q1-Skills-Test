@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+    <style>
+        body{
+            background-image: url(skillstestbg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .form{
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 20px;
+            width: 450px;
+            margin: 30px;
+            background-color: rgb(228, 207, 255);
+        }
+        h2{
+            text-align: center;
+            color: rgb(68, 27, 118);
+        }
+        #name{
+            width: 440px;
+        }
+        #email{
+            width: 440px;
+        }
+        #why{
+            width: 440px;
+            height: 50px;
+        }
+        .button{
+            background-color: rgb(68, 27, 118);
+            border-radius: 5px;
+            color: rgb(228, 207, 255);
+            padding: 5px;
+        }
+        h4{
+            text-align: center;
+            color: rgb(68, 27, 118);
+        }
+        footer{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>OBMC Robotics Club</h2>
+        <h2>Application Form</h2>
+        <p>If you are interested in joining the Robotics Club, please fill out this form.</p>
+        <br>
+        <form>
+            <label for="name">Full Name: </label><br>
+                <input id="name" type="text">
+            <br><br>
+
+            <label for="email">Email: </label><br>
+                <input id="email" type="email"><br> 
+            <br>
+
+            <fieldset>
+                <legend>Grade and Section</legend>
+                <label for="grade">Grade Level: </label>
+                    <select name="grade" id="grade">
+                        <option value="7">Grade 7</option>
+                        <option value="8">Grade 8</option>
+                        <option value="9">Grade 9</option>
+                        <option value="10">Grade 10</option>
+                    </select>
+
+                <label for="section">Section: </label>
+                    <select name="section" id="section">
+                        <option value="sapphire">Sapphire</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="topaz">Topaz</option>
+                        <option value="jade">Jade</option>
+                        <option value="emerald">Emerald</option>
+                    </select>
+            </fieldset>
+            <br>
+
+            <fieldset>
+            <legend>Gender</legend>
+                <input type="radio" name="gender">
+                    <label for="gender">Male</label>
+                    
+                <input type="radio" name="gender">
+                <label for="gender">Female</label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>What are your skills?</legend>
+                    <input type="checkbox" name="skill">
+                    <label for="skill">Coding</label>
+
+                    <input type="checkbox" name="skill">
+                    <label for="skill">Design</label>
+
+                    <input type="checkbox" name="skill">
+                    <label for="skill">Electronics</label>
+            </fieldset>
+            <br>
+
+            <label for="why">Tell us why you want to join: </label><br>
+            <textarea name="why" id="why"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit Application" class="button">
+            <input type="reset" value="Reset" class="button">
+        </form>
+        <br>
+
+        <h4>Robotics Activities We Offer:</h4>
+        <ul>
+            <li>Line Following Robots</li>
+            <li>Obstacle Avoidance Programming</li>
+            <li>Light Following Robot</li>
+        </ul>
+
+        <h4>Helpful Links:</h4>
+        <ol>
+            <li><a href="https://www.playtolabs.com/blog/robotics-for-beginners">Playto Labs</a></li>
+            <li><a href="https://www.sciencebuddies.org/blog/robotics-lessons">Science Buddies</a></li>
+        </ol>
+    </div>
+</body>
+
+<footer>
+    <center>
+    <p>© 2026 Robotics Club Application | Created by Kristine Ivy M. Manabat - 9-Sapphire</p>
+    </center>
+</footer>
+</html>
